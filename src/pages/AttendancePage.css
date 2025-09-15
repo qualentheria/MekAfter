@@ -1,0 +1,118 @@
+.attendance-page {
+  background-color: #000;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.today-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 20px;
+}
+
+.today-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.today-icon {
+  font-size: 24px;
+}
+
+.attendance-list {
+  padding: 0 20px;
+}
+
+.attendance-item {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  color: #FFA500;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.time-text {
+  line-height: 1.2;
+}
+
+.attendance-divider {
+  width: 2px;
+  height: 40px;
+  background-color: #FFA500;
+  margin: 0 15px;
+}
+
+.subject-info {
+  flex: 1;
+}
+
+.subject-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subject-name.absent {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.teacher-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #888;
+  font-size: 13px;
+}
+
+.teacher-icon {
+  font-size: 14px;
+}
+
+.status-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.check-icon {
+  color: #4CAF50;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cross-icon {
+  color: #f44336;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.absent-badge {
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}

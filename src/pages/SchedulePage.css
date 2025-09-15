@@ -1,0 +1,122 @@
+.schedule-page {
+  background-color: #000;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.page-header svg {
+  cursor: pointer;
+  color: #fff;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.days-selector {
+  display: flex;
+  gap: 8px;
+  padding: 15px 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.days-selector::-webkit-scrollbar {
+  display: none;
+}
+
+.day-button {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.day-button.active {
+  background-color: #FFA500;
+  color: #000;
+}
+
+.schedule-list {
+  padding: 20px;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.break-item {
+  background-color: #1a1a1a;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  color: #FFA500;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.time-text {
+  line-height: 1.2;
+}
+
+.schedule-divider {
+  width: 2px;
+  height: 40px;
+  background-color: #FFA500;
+  margin: 0 15px;
+}
+
+.subject-info {
+  flex: 1;
+}
+
+.subject-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.teacher-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #888;
+  font-size: 13px;
+}
+
+.teacher-icon {
+  font-size: 14px;
+}
+
+.break-icon {
+  font-size: 24px;
+  margin-left: auto;
+}

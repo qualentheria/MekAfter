@@ -1,0 +1,183 @@
+.exam-results-page {
+  background-color: #000;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.exam-date-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  margin: 0 20px 20px;
+}
+
+.date-block {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.date-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.date-month {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.exam-info {
+  flex: 1;
+}
+
+.exam-name {
+  color: #fff;
+  font-size: 14px;
+}
+
+.results-card {
+  background: linear-gradient(135deg, #FFA500, #FFD700);
+  border-radius: 20px;
+  margin: 0 20px 20px;
+  padding: 20px;
+}
+
+.congrats-message {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  border: 8px solid rgba(255, 255, 255, 0.3);
+}
+
+.score-number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.score-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.stat-number.correct {
+  color: #4CAF50;
+}
+
+.stat-number.wrong {
+  color: #f44336;
+}
+
+.stat-label {
+  font-size: 11px;
+  color: #333;
+  margin: 3px 0;
+}
+
+.stat-icon {
+  font-size: 16px;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.pdf-icon {
+  font-size: 18px;
+}
+
+.download-text {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+  color: #000;
+  font-size: 14px;
+}
+
+.empty-results {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  margin: 0 20px;
+}
+
+.empty-date {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.empty-date-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.empty-date-month {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.empty-exam-info {
+  flex: 1;
+}
+
+.empty-exam-name {
+  color: #fff;
+  font-size: 14px;
+}

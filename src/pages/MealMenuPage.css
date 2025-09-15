@@ -1,0 +1,153 @@
+.meal-menu-page {
+  background-color: #000;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.dates-selector {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.dates-selector::-webkit-scrollbar {
+  display: none;
+}
+
+.date-button {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 50px;
+}
+
+.date-button.active {
+  background-color: #FFA500;
+}
+
+.date-day {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.date-button.active .date-day {
+  color: #000;
+}
+
+.date-weekday {
+  font-size: 11px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.date-button.active .date-weekday {
+  color: #000;
+}
+
+.meal-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.meal-tab {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.meal-tab.active {
+  color: #FFA500;
+}
+
+.meal-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #FFA500;
+}
+
+.calorie-display {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.calorie-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid #FFA500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+
+.calorie-value {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.calorie-label {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.nutrition-stats {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 20px 30px;
+}
+
+.nutrition-item {
+  background-color: #8B4513;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.nutrition-label {
+  font-size: 11px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.nutrition-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu-list {
+  padding: 0 20px;
+}
+
+.menu-item {
+  background-color: #1a1a1a;
+  border-left: 3px solid #FFA500;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
